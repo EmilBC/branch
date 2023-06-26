@@ -4,7 +4,7 @@ node {
     def dockerImageTag = "devopsexample${env.BUILD_NUMBER}"
     
     stage('Clone Repo') {
-      git 'https://github.com/EmilBC/Jenkins-Test.git'
+      git 'https://github.com/EmilBC/branch.git'
     }
 
     stage('SCM') {
